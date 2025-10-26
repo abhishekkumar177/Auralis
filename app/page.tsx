@@ -693,12 +693,17 @@ const Auralis: React.FC = () => {
         }}>
           <PixelBlast
             variant="circle"
-            pixelSize={4}
+            pixelSize={3}
             color="#B19EEF"
             liquid={true}
-            liquidStrength={0.05}
-            rippleIntensityScale={0.8}
-            rippleSpeed={0.4}
+            liquidStrength={0.15}
+            enableRipples={true}
+            rippleIntensityScale={3.5}
+            rippleSpeed={0.25}
+            rippleThickness={0.15}
+            patternDensity={0.8}
+            transparent={false}
+            edgeFade={0}
           />
         </div>
         <div style={{ position: 'relative', zIndex: 10, minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '1.25rem' }}>
@@ -730,9 +735,11 @@ const Auralis: React.FC = () => {
           pixelSize={3}
           color="#B19EEF"
           liquid={true}
-          liquidStrength={0.1}
-          rippleIntensityScale={1.2}
-          rippleSpeed={0.4}
+          liquidStrength={0.15}
+          enableRipples={true}
+          rippleIntensityScale={3.5}
+          rippleSpeed={0.25}
+          rippleThickness={0.15}
           patternDensity={0.8}
           transparent={false}
           edgeFade={0}
@@ -740,9 +747,9 @@ const Auralis: React.FC = () => {
       </div>
 
       {/* Content Overlay */}
-      <div style={{ position: 'relative', zIndex: 10, minHeight: '100vh', color: 'white', pointerEvents: 'auto' }}>
+      <div style={{ position: 'relative', zIndex: 10, minHeight: '100vh', color: 'white', pointerEvents: 'none' }}>
         {/* Header */}
-        <header className="flex justify-between items-center p-6">
+        <header className="flex justify-between items-center p-6" style={{ pointerEvents: 'auto' }}>
           <h1 className="text-2xl font-bold">Auralis</h1>
           <nav>
             <Link href="/login" className="mr-4 hover:underline">Sign In</Link>
@@ -754,7 +761,7 @@ const Auralis: React.FC = () => {
         <section className="text-center py-20 px-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Your notes, organized and understood</h2>
           <p className="text-lg md:text-xl mb-6">A simple note-taking app with AI-powered summaries and insights. Capture ideas, get summaries, discover patterns.</p>
-          <div className="space-x-4">
+          <div className="space-x-4" style={{ pointerEvents: 'auto' }}>
             <Link href="/signup" className="inline-block bg-purple-600 px-6 py-3 rounded-lg text-lg hover:bg-purple-700">Get Started Free</Link>
             <Link href="/login" className="inline-block border border-white px-6 py-3 rounded-lg text-lg hover:bg-white hover:text-black">Sign In</Link>
           </div>
@@ -808,7 +815,7 @@ const Auralis: React.FC = () => {
         <section className="text-center py-20 px-4 bg-black bg-opacity-30">
           <h3 className="text-3xl font-bold mb-4">Start taking better notes today</h3>
           <p className="text-lg mb-6">Join users who are already organizing their thoughts with AI-powered insights</p>
-          <Link href="/signup" className="inline-block bg-purple-600 px-6 py-3 rounded-lg text-lg hover:bg-purple-700">Get Started Free</Link>
+          <Link href="/signup" className="inline-block bg-purple-600 px-6 py-3 rounded-lg text-lg hover:bg-purple-700" style={{ pointerEvents: 'auto' }}>Get Started Free</Link>
           <p className="mt-4 text-sm">No credit card required</p>
         </section>
 
