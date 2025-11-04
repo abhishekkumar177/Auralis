@@ -51,7 +51,7 @@ This Code of Conduct applies to all spaces where the Smart Notes (Auralis) proje
 
 We are serious about our community standards. The project maintainers will investigate any violations of this Code of Conduct promptly and fairly.
 
-* **Reporting Concerns:** If you experience or observe behavior that violates these guidelines, please notify a **Project Admin or WOCS Mentor** (if applicable) or contact the maintainers directly via email. Please send detailed reports to **[MAINTAINER_EMAIL_ADDRESS]**. All concerns will be handled with seriousness, respect, and confidentiality.
+* **Reporting Concerns:** If you experience or observe behavior that violates these guidelines, please notify a **Project Admin or WOCS Mentor** (if applicable) or contact the maintainers directly via email. Please send detailed reports to @mannubaveja007 **[MAINTAINER_EMAIL_ADDRESS]**. All concerns will be handled with seriousness, respect, and confidentiality.
 * **Maintainer Responsibility:** Project maintainers are responsible for clarifying standards and taking appropriate corrective action. Maintainers are obligated to respect the privacy and security of the reporter.
 * **Consequences of Violations:** We reserve the right to take appropriate action, which may include:
     * **Reminder** of the guidelines
