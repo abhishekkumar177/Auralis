@@ -1,6 +1,7 @@
 # Contributing to Smart Notes (Auralis)
 
 Thank you for your interest in contributing to Smart Notes! We welcome contributions from the community.
+Everyone Must do an Star to the repository to make it an rememberable and an great head start to open source
 
 ## Code of Conduct
 
